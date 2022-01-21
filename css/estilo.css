@@ -1,0 +1,125 @@
+/*section1*/
+header #logo{
+	font-family: sans-serif, cursive;
+	font-size: 50px;
+	text-align: center;
+	line-height: 60px;
+}
+
+/*section2*/
+nav div{
+	padding: 10px;
+	text-align: center;
+}
+
+nav div a{
+	display: block;
+	background: rgba(100,0,255,1);
+	font-family: monospace, cursive;
+	color: white;
+	line-height: 48px;
+}
+
+nav ul li a:hover{
+	background: rgba(100,0,255,.4);
+}
+
+nav ul li a:active{
+	background: rgba(255,0,100,1);
+}
+
+/*section3*/
+#section3 center{
+	padding: 20px;
+}
+
+#section3 img{
+	border-radius: 100%;
+	width: 200px;
+	height: 150px;
+	padding: 10px;
+}
+
+#section3 h1{
+	font-family: monospace;
+	font-size: 40px;
+	padding: 10px
+}
+
+#section3 p{
+	padding: 10px;
+}
+
+/*section4*/
+#section4 aside#izq ul li{
+	background: #aaa;
+	padding: 10px;
+	margin: 2px 10px;
+	list-style: square;
+	list-style-position: inside;
+	/*list-style-image: url(.../img);*/
+}
+
+#section4 article h1{
+	font-family: serif;
+	font-size: 40px;
+	margin: 20px
+}
+
+#section4 article p img{
+	float: left;
+	margin-right: 20px;
+	width: 350px;
+	height: 300px;
+}
+
+#section4 article p{
+	margin: 5px 20px;
+	font-size: 14px;
+	text-align: left;
+}
+
+#section4 aside#der h1{
+	line-height: 50px;
+	text-align: center;
+	background: rgba(100,0,255,1);
+	color: white;
+	margin-bottom: 5px;
+}
+
+#section4 aside#der input{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+#section4 aside#der input[type="text"]{
+	background: url(../img/usuario.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+
+#section4 aside#der input[type="password"]{
+	background: url(../img/clave.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+
+#section4 aside#der input[type="submit"]{
+	background: rgba(100,0,100,.5);
+	border: 0;
+}
+
+/*section5*/
+footer{
+	padding: 20px 10px;
+}
+
+footer div{
+	background: rgba(100,0,255,1);
+	text-align: center;
+	line-height: 50px
+	color: white;
+}
